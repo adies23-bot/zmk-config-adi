@@ -58,12 +58,12 @@
 // -----------------------------------------------------------------------------------------
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
 // |      |     |     |     |     |     |   |     |     |     |     |     |      |
-// | F17  | F16 | F15 | F14 | F13 |     |   |     |     |     |     |     |      |
+// |C-F17 |C-F16|C-F15|C-F14|C-F13|     |   |     |     |     |     |     |      |
 //                    |     |     |     |   |     |     |     |
                         bindings = <
    &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
    &trans &trans &trans &trans &trans &trans   &trans &trans &trans &trans &trans &trans
-   &kp F17 &kp F16 &kp F15 &kp F14 &kp F13 &trans   &trans &trans &trans &trans &trans &trans
+   &kp LC(F17) &kp LC(F16) &kp LC(F15) &kp LC(F14) &kp LC(F13) &trans   &trans &trans &trans &trans &trans &trans
                   &trans &trans &trans        &trans &trans &trans
                         >;
                 };
